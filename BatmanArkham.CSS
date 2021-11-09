@@ -1,0 +1,40 @@
+*{
+    margin: 0px auto;
+}
+
+h1.Título {
+    color:  rgb(0, 0, 0);
+    padding-left: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+p.Sinopse {
+margin-top: 5px;
+margin-right: 5px;
+margin-left: 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+font-size: 12px;
+font-style: oblique;
+color: rgb(0, 0, 0);
+}
+img.Imagem {
+  float: right;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+p.Texto {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+iframe.Vídeo {
+    margin-top: 20px;
+    margin-left: 370px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}

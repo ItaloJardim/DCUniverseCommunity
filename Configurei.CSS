@@ -1,0 +1,407 @@
+* {
+    margin: 0px auto;
+
+}
+div.menucel {
+    display: none;
+}
+div.topo {
+    width: 100%;
+    display: flex;
+    height: 6vw;
+    border-bottom: solid rgb(0, 0, 0);
+    border-width: 5px;
+    background-color: rgb(0, 0, 0);
+}
+
+div.esquerda { 
+    flex: 70%;
+    margin-bottom: 5px;
+}
+div.direita {
+    flex: 30%;
+    display: flex;
+}
+div.senha {
+    direction: ltr;
+    position: relative;
+    z-index: 432524365357;
+    background-color: black;
+}
+form {
+    margin-top: 2.5vw;
+}
+label {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1vw;
+    padding: 0.2vw 0.5vw;
+}
+input {
+    margin: 0.5vw 0.5vw;
+}
+input[type="submit"]{
+    background-color: rgb(40, 40, 185);
+    border: none;
+    color: white;
+    padding: 0.2vw 0.2vw;
+}
+
+img.icone {
+    height: 2.5vw;
+
+    padding: 2vw;
+
+    transition: transform 1s ease;
+}
+
+img.icone:hover {
+    transform: scale(1.2);
+    filter: brightness(1.15) 2s;
+}
+img.iconelogin {
+    
+    height: 5vw;
+    margin-top: 0.6vw;
+    margin-left: 0.7vw;
+    transition: transform 1s ease;
+}
+img.iconelogin:hover {
+    transform: scale(1.2);
+    filter: brightness(1.15) 2s;
+}
+
+a.menu2 {
+ color: white;
+ text-decoration: none;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: 1.2vw; 
+ font-weight: bold; 
+ padding: 0.5vw; 
+}
+a.menu2:hover {
+    text-shadow: 0 0 4px white;
+}
+
+img.logo {
+    height: 5vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    margin-left: 4.5vw;
+    transition: transform 2s ease;
+}
+img.logo:hover {
+    transform: scale(1.2);
+
+}
+h1.Título {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4.5vw;
+    color: rgb(0, 75, 251);
+    margin-top: 4vw;
+    padding-right: 4vw;
+}
+div.meio {
+    width: 90%;
+    background-color:rgb(250, 250, 250);
+}
+div.menu {
+    flex: 20%;
+    border-right-style: solid;
+    border-right-color: rgb(20, 20, 20);
+    border-width: 3px;
+    background-color: rgb(248, 248, 248);   
+}
+div.menusup {
+    display: flex;
+}
+div.submenu {
+    display: inline-block;
+    position: relative;
+    transition: transform 2s ease;
+}
+div.submenu:hover {
+    transform: scale(1.2) 2s;
+}
+
+
+div.submenu2 {
+    display: none; /* Esconde o submenu */
+    position: absolute;
+    margin-top: 3.1vw;
+    text-align: center;
+    box-shadow: 0.3vw 0.15vw 1vw rgb(0, 0, 0);
+}
+div.submenu:hover div.submenu2, a.menu /* EU TIREI O ,a.menu, mas pode haver um problema com isso.*/ {
+    display: block; /* Exibe o submenu */
+}
+a.menu {
+    background-color: white;
+    display: block;
+}
+
+div.baixo {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+div.esq {
+    flex: 85%;
+}
+div.dir {
+    flex: 15%;
+    display: flex;
+}
+h1.menu {
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a.menu { 
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.4vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  
+    border-bottom-color: rgb(20, 20, 20);
+    border-style: solid;
+    border-top: rgb(20, 20, 20);
+}
+a.menu:hover {
+color: rgb(127, 127, 127);
+border-color: black;
+background-color: black;
+color: white;
+}
+div.menusup { 
+width: 100%;
+background-color: rgb(20, 20, 20);
+
+}
+a.ma {
+    padding: 0.8vw 3vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    float: left;
+    font-size: 1.4vw;
+}
+a.ma:hover {
+    color: rgb(255, 255, 255);
+    border-bottom:rgb(0, 75, 251) 0.3vw solid;
+    border-right: solid black 1px;
+    border-left: 1px solid black;
+    text-shadow: 0 0 4px white;
+}
+a.ms {
+    padding: 0.6vw 4vw;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1vw;
+}
+a.ms:hover {
+    color: rgb(127, 127, 127);
+    border-bottom:rgb(0, 75, 251) 10px solid;
+    border-right: solid black 1px;
+    border-left: 1px solid black;
+}
+p.Baixo {
+    color: rgb(224, 224, 224); 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5vw;
+    margin-top: 0.5vw;
+    padding-left: 0.3vw;
+    padding-right: 0.6vw;
+}
+img.baixo {
+    height: 2vw;
+    padding-left: 0.5vw;
+    padding-right: 1.5vw;
+    padding-bottom: 0px;
+    
+}
+body {
+    background-image: url(DCbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+/* ABAIXO A CONFIGURAÇÃO DO CONTEÚDO INTRODUTÓRIO */
+
+h1.tituloAbertura {
+    color:  rgb(0, 0, 0);
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 2vw;
+}
+p.abertura {
+    text-align: center;
+}
+img.BannerAbertura {
+height: 30vw;
+width: 90%;
+}
+h1.origem {
+    color:  rgba(0, 0, 0, 0.884);
+    padding: 10px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+}
+
+p.origem {
+    text-align: justify;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10px 10px;
+}
+h1.Atualmente {
+    color:  rgb(0, 0, 0);
+    padding: 10px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+}
+p.imgatual {
+    text-align: center;
+}
+img.Atualmente {
+    height: 35vw;
+    width: 90%;
+}
+p.Atualmente {
+    padding: 10px 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+a.ingles {
+  
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+a.ingles:hover {
+    color: rgb(175, 20, 20);
+}
+p.fonte {
+    padding: 1vw 1vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 16px;
+}
+@media only screen and (max-width:600px) {
+ div.menucel {
+    display: block;
+    flex: 10%;
+    width: 100%;
+    box-sizing: border-box;
+}
+div.celprincipal {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 8vw;
+}
+img.menuimg {
+    height: 1vw;
+}
+div.submenucel {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+div.celprincipal:hover ~ div.submenucel {
+    display: block;
+}
+div.submenucel:hover {
+    display: block;
+}
+div.submenu {
+    width: 100%;
+   
+    margin-top: 0;
+    text-align: center;
+}
+
+div.submenu2 {
+    position: relative;
+    margin-top: 0;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+a.menu {
+    font-size: 15px;
+    position: relative;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a.ma {
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+    position: relative;
+    display: block;
+    font-size: large;
+    float: none;
+    z-index: 0;
+}
+/* Ajuste das imagens da logo e dos insta, facebook e twitter */
+img.logo {
+    height: 5vw;
+    margin-top: 1.25vw;
+}
+
+div.login {
+    display: none; 
+}
+
+div.topo {
+    height: 7vw;
+    position: fixed;
+}
+img.igual {
+    height: 7vw;
+}
+ div.esquerda {
+    flex: 70%;
+ }
+ div.direita {
+     flex: 20%
+ }
+ div.meio {
+     width: 100%;
+     padding-top: 7.4vw;
+ }
+ div.menusup {
+     display: none;
+ }
+ img.Atualmente {
+     height: 300px;
+ }
+ div.baixo {
+     height: 4vw;
+ }
+ label {
+     font-size: 2vw;
+ }
+}
